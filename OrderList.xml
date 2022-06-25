@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<OrderList>
+    
+<order><id>100</id><client>Gabe</client><shipadd>490 Main Street </shipadd><date>02/04/2022</date></order><order><id>101</id><client>Sarah</client><shipadd>5000 St Catherine</shipadd><date>04/07/2022</date></order><order><id>102</id><client>Houssam</client><shipadd>2345 Maisonneuve</shipadd><date>05/05/2022</date></order><order><id>103</id><client>John</client><shipadd>200 3rd Ave</shipadd><date>01/02/2022</date></order><order><id>104</id><client>Samuel</client><shipadd>30 Guy Street</shipadd><date>03/04/2022</date></order><order><id>105</id><client>Bob</client><shipadd>500 St Catherine</shipadd><date>05/07/2022</date></order><order><id>106</id><client>Josh</client><shipadd>500 St Catherine</shipadd><date>06/09/2022</date></order><order><id>107</id><client>Sarah</client><shipadd>600 Monklans ave</shipadd><date>04/07/2022</date></order></OrderList>

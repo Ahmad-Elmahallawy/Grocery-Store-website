@@ -1,0 +1,295 @@
+
+.signupbar{
+    text-align: center;
+    padding: 0px;
+    width: 100%
+
+}
+
+.signupmargin{
+    background-color: #fa8072;
+    padding: 10px 0px;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+
+.label{
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 25%;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+
+.formtext{
+    width: 200px;
+    margin-top: 10px;
+   
+}
+
+.signupcontainer{
+
+    background-color: white;
+    width:50%;
+    border-radius: 5px;
+    margin: 50px auto;
+
+/* Below is for box shadow */
+
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+
+.signupcontainer form {
+
+    padding: 20px 0px 20px 40px;
+    
+}
+
+.checkbut{
+    justify-content: center;
+    text-align: center;
+    margin:auto;
+    padding-bottom: 20px;
+}
+.submit{
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 30px;
+   
+}
+.signup_button{
+    background-color: #fa8072;
+    justify-content: center;
+    padding: 0px;
+    width:35%;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.signup_button:hover{
+    background-color: #1c7ece;
+    color:white;
+
+}
+.labelsignup{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logincontainer{
+    
+    background-color: white;
+    width:35%;
+    margin:auto;
+    border-radius: 5px;
+    margin: 5% auto;
+    padding-bottom: 20px;
+
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.loginmargin{
+
+    text-align: center;
+    background-color: salmon;
+    padding: 0px;
+    font-weight: bold;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 0pc 0pc;
+
+}
+
+.loginbar{
+    text-align: center;
+    padding: 0px;
+    width: 100%
+
+}
+
+.inner-container{
+
+    text-align: center;
+}
+
+.login_label{
+   margin: 0%;
+   padding:0%;
+   margin-left:25%;
+
+}
+.login_input{
+
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    
+}
+.labellogin{
+    font-size: 18px;
+    font-weight: bold;
+}
+.login_info{
+    width: 100%;
+    margin-left:2px;
+}
+.login_button{
+    white-space: nowrap;
+    width:50%;
+    
+}
+.login_button{
+    background-color: #fa8072;
+    justify-content: center;
+    margin-bottom: 10px;
+    width:70%;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+}
+
+
+.login_button:hover{
+    background-color: #1c7ece;
+    color:white;
+
+}
+.forgotpass{
+  
+    text-align: center;
+}
+.loginlink{
+    text-align: center;
+}
+
+/* .ul_list{
+    list-style: none;
+    border: 2px solid salmon;
+    box-shadow: 1px salmon;
+    padding:0;
+    margin: 0px;
+}
+.pad{
+    padding:0px;
+    padding: 15px 0px;
+    text-align: center;
+    border: 2px;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+    color: black;
+    background-color: lightgrey;
+    margin:0;
+
+}
+
+li.pad {
+    border: 1px solid silver;
+}
+.pad:hover{
+    background-color: rgb(168, 168, 168);
+    color:blue
+} */
+/* .listname{
+    text-decoration: none;
+    color: black;
+    margin:0;
+
+}
+.listname:hover{
+    color:blue;
+} */
+
+
+/* Media Query for Sign Up and Login*/
+
+@media screen and (max-width: 1400px){
+    .logincontainer, .signupcontainer{
+        width:45%;
+    }
+
+    .login_input {
+        margin-bottom: 2px;
+    }
+
+    .label{
+        padding-left: 2%;
+    }
+
+    .formtext {
+        margin: 9px auto;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .logincontainer {
+        width:55%;
+    }
+
+    .signupcontainer {
+        width:70%;
+    }
+    
+    .label{
+        padding-left: 10%;
+    }
+
+    .formtext {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .logincontainer, .signupcontainer {
+        width:90%;
+    }
+
+    .login_label {
+        margin-left:20%;
+    }
+
+    .login_info {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .signup_button{
+        width:55%;
+    }
+
+    .login_label {
+        margin-left:13%;
+    }
+
+    .login_info {
+        width: 75%;
+    } 
+}
+
+@media screen and (max-width: 350px) {
+    .label{
+        padding-left: 5%;
+    }
+    .formtext {
+        width: 90%;
+    }
+}
+  
+

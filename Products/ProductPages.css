@@ -1,0 +1,202 @@
+.product-border {
+    border: 1px solid silver;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px auto;
+    width: 60%;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-left: 300px;
+}
+
+.images{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.display{
+    float: right;
+}
+
+.product-name{      
+    margin-top: 20px;
+    margin-bottom: 18px;
+    margin-right: 300px;
+    padding-left: 5px;
+    font-size: 50px; 
+}
+
+.product-name-chicken{      
+    margin-top: 20px;
+    margin-bottom: 18px;
+    margin-right: 90px;
+    padding-left: 5px;
+    font-size: 50px; 
+}
+
+.product-name-minced{      
+    margin-top: 20px;
+    margin-bottom: 18px;
+    margin-right: 150px;
+    padding-left: 5px;
+    font-size: 50px; 
+}
+
+.product-name-orange{      
+    margin-top: 20px;
+    margin-bottom: 18px;
+    margin-right: 260px;
+    padding-left: 5px;
+    font-size: 50px; 
+}
+
+.product-name-onions{      
+    margin-top: 20px;
+    margin-bottom: 18px;
+    margin-right: 170px;
+    padding-left: 5px;
+    font-size: 50px; 
+}
+
+.product-name-spaghetti{      
+    margin-top: 20px;
+    margin-bottom: 18px;
+    margin-right: 220px;
+    padding-left: 5px;
+    font-size: 50px; 
+}
+
+.product-name-zucchini{      
+    margin-top: 20px;
+    margin-bottom: 18px;
+    margin-right: 235px;
+    padding-left: 5px;
+    font-size: 50px; 
+}
+.moredescription_contain{
+  width:350px;
+  
+}
+
+.product-description{
+    font-size: 20px;
+    padding-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.product-quantity{
+    margin-left: 5px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.product-quantity-input{
+	height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1em;
+    margin-right: 25px;
+}
+
+.product-price{
+    padding-left: 5px;
+    font-size: 50px;
+    margin-top: 65px;
+    margin-bottom: 5px;
+}
+
+.button{
+    background-color: salmon;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 190px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+}
+
+.button:hover{
+    font-weight: 600;
+    border: none;
+	background-color: rgb(255, 160, 149);
+}
+
+
+@media only screen and (max-width: 1220px) {
+  .images {
+		height: 300px;
+		width: 300px;
+	}
+
+  .product-border {
+  width: 75%;
+    margin-left: 100px;
+  }
+  
+  .product-name, .product-name-chicken, .product-name-minced, .product-name-orange, .product-name-onions, .product-name-spaghetti, .product-name-zucchini, .product-price {
+    font-size: 25px;
+  }
+
+  .product-price, .product-quantity {
+    margin-top: 20px;
+  }
+  
+}
+
+@media only screen and (max-width: 1000px) {
+  .images {
+		height: 200px;
+		width: 200px;
+	}
+
+  .product-border {
+    width: 85%;
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .images {
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+	}
+
+  .product-border {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .display{
+    padding-left: 10px;
+    float: none;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .display{
+    float: none;
+    padding-left: 20px;
+  }
+  .moredescription_contain{
+    width:250px;
+  }
+ .product-border{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+}
