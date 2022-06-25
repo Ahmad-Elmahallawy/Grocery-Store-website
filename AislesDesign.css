@@ -1,0 +1,105 @@
+ul.aisleList{
+
+    vertical-align: top;
+    list-style-type: none;
+    border-style: hidden;
+    width: 290px;
+    background: salmon;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+li.aisleElements{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.href-aisles{
+    color: white;
+    text-decoration: none;
+}
+
+h3.list-gap{
+    padding-bottom:15px;
+    padding-top: 30px;
+}
+
+.product-aisle{
+    border: 1px solid silver;
+    display: inline-block;
+    width: 300px;
+    height: 360px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+
+.images{
+    width: 300px;
+    height: 220px;
+}
+
+.product-name{
+    margin-top: 5px;
+    margin-bottom: 18px;
+    padding-left: 5px;
+    font-size: 30px; 
+}
+
+.product-description{
+    font-size: 20px;
+    padding-left: 5px;
+    margin-top: 2px;
+}
+
+.product-price{
+    padding-left: 5px;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button{
+    background-color: salmon;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 279px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.button:hover{
+    font-weight: 600;
+    border: none;
+	background-color: rgb(255, 160, 149);
+}
+
+.product-name-link{
+  text-decoration: none;
+}
+
+.product-name-link:link{
+  text-decoration: none;
+  color: black;
+}
+
+.product-name-link:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.product-name-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.product-name-link:active {
+  text-decoration: none;
+  color: black;
+}
